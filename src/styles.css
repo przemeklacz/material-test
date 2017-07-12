@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.icon-20 {
+    font-size: 20px;
+}
+
+md-grid-list {
+    max-width: 1400px;
+    margin: 16px;
+}
+
+md-sidenav-container {
+    height: 100vh;
+}
+md-sidenav {
+    width: 320px;
+}
+
+[md-raised-button] {
+    width: 100%;
+}
