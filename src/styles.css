@@ -12,6 +12,12 @@ body {
     font-size: 20px;
 }
 
+md-toolbar-row {
+    justify-content: space-between;
+}
+p {
+    margin: 16px;
+}
 md-grid-list {
     max-width: 1400px;
     margin: 16px;
